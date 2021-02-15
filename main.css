@@ -1,0 +1,31 @@
+body{
+    background-color: #EEE;
+}
+
+.box{
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 1rem;
+    box-shadow: 4px 7px 20px #999;
+}
+
+.box img{
+    max-height: 65vh;
+}
+
+.box button{
+    margin-left: auto;
+}
+
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#logo {
+    color: rgba(31, 136, 17, 1);
+    -webkit-text-fill-color: rgba(31, 136, 17, 0); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgba(31, 136, 17, 1);
+}
