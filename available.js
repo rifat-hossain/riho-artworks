@@ -19,7 +19,7 @@ xhttp.onreadystatechange = function() {
                     var keywords = q.split(" ");
                     var pass = false;
                     keywords.forEach(element => {
-                        if(json[i].title.toLowerCase().indexOf(element.toLowerCase()) > -1){
+                        if(json[i].title.toLowerCase().indexOf(element.toLowerCase()) > -1 || json[i].des.toLowerCase().indexOf(element.toLowerCase()) > -1){
                             pass = true;
                         }
                     });
