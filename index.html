@@ -38,18 +38,18 @@
         <div class="col-lg-5">
             <div class="box">
                 <h5>Search Tool</h5>
-                <form>
+                <form action="/" method="GET">
                     <div class="form-group">
-                        <label for="keyword">Keywords:</label>
-                        <input type="text" class="form-control" id="keyword">
+                        <label for="q">Keywords:</label>
+                        <input type="text" class="form-control" id="q" name="q">
                     </div>
                     
                     <label>Price Range:</label>
                     <div class="input-group mb-3">
-                        <input type="number" class="form-control" placeholder="From">
-                        <input type="number" class="form-control" placeholder="To">
+                        <input id="low" name="low" type="number" class="form-control" placeholder="From">
+                        <input id="high" name="high" type="number" class="form-control" placeholder="To">
                     </div>
-                    <button type="button" class="btn btn-success">Search</button>
+                    <button type="submit" class="btn btn-success">Search</button>&emsp;<a href="/"><button type="button" class="btn btn-warning">Clear Search</button></a>
                 </form>
             </div>
         </div>
