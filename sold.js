@@ -11,8 +11,9 @@ xhttp.onreadystatechange = function() {
             if(json[i].sold == true){
                 var body = "<div class=\"box text-center\">\
                 <h5>"+json[i].title+"</h5>\
-                <img src=\"images/"+json[i].img+"\" class=\"mx-auto img-fluid\">\
-                <br><br>\
+                <div><img src=\"images/"+json[i].img+"\" class=\"mx-auto img-fluid\">\
+                <div class=\"sold\">SOLD</div></div>\
+                <br>\
                 <p>"+json[i].des+"</p>\
                 Dimention: "+json[i].dim+"<br>\
                 Product ID: RS010<br>";

@@ -29,3 +29,13 @@ body{
     -webkit-text-stroke-width: 1.5px;
     -webkit-text-stroke-color: rgba(31, 136, 17, 1);
 }
+
+.sold{
+    position: absolute;
+    font-size: 5rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    color: #0005;
+    font-family: 'Anton', sans-serif;
+}

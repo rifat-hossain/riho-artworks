@@ -42,7 +42,7 @@ xhttp.onreadystatechange = function() {
                 var body = "<div class=\"box text-center\">\
                 <h5>"+json[i].title+"</h5>\
                 <img src=\"images/"+json[i].img+"\" class=\"mx-auto img-fluid\">\
-                <br><br>\
+                <br>\
                 <p>"+json[i].des+"</p>\
                 Dimention: "+json[i].dim+"<br>\
                 Product ID: RS010<br>\
