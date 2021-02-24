@@ -3,9 +3,19 @@
         "title":"Some Tulips?",
         "img":"RS010.jpg",
         "des":"Pencil on A4 paper",
-        "dim":"11 x 20 (cm)",
+        "dim":"210 x 297 mm",
         "id":"RS010",
-        "price":1000,
+        "price":700,
+        "frame":500,
+        "sold":true
+    },
+    {
+        "title":"Some Tulips?",
+        "img":"RP010.jpg",
+        "des":"Pencil on A4 paper",
+        "dim":"210 x 297 mm",
+        "id":"RP010",
+        "price":500,
         "frame":500,
         "sold":true
     }
