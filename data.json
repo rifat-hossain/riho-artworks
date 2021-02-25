@@ -7,7 +7,7 @@
         "id":"RS010",
         "price":700,
         "frame":500,
-        "sold":false
+        "sold":true
     },
     {
         "title":"Golden Hour",
@@ -17,6 +17,6 @@
         "id":"RP010",
         "price":500,
         "frame":500,
-        "sold":false
+        "sold":true
     }
 ]}
