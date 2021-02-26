@@ -45,7 +45,7 @@ xhttp.onreadystatechange = function() {
                 <br>\
                 <p>"+json[i].des+"</p>\
                 Dimention: "+json[i].dim+"<br>\
-                Product ID: RS010<br>\
+                Product ID: "+json[i].id+"<br>\
                 <b class=\"mt-5 text-success\">Price: BDT "+json[i].price;
                 if(json[i].frame > 0){
                     body += "<br><small>(*Optional)</small> Frame: BDT +"+json[i].frame+"<br><small> [N.B: The frame may not look alike as shown in this picture]</small></b>";

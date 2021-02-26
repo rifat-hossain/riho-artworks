@@ -16,7 +16,7 @@ xhttp.onreadystatechange = function() {
                 <br>\
                 <p>"+json[i].des+"</p>\
                 Dimention: "+json[i].dim+"<br>\
-                Product ID: RS010<br>";
+                Product ID: "+json[i].id+"<br>";
                 if(n % 2 == 0){
                     document.getElementById("feed1").innerHTML += body;
                 }
