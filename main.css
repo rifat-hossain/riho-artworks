@@ -39,3 +39,8 @@ body{
     color: #0005;
     font-family: 'Anton', sans-serif;
 }
+a{
+    color: cadetblue;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
