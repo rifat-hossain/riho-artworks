@@ -1,10 +1,20 @@
 {"posts":[
-{
-        "title":"লাভ চা!",
-        "img":"RP020.jpg",
+    {
+        "title":"Fairy Lights",
+        "img":"RM030.jpg",
         "des":"Oil color on paper",
         "dim":"275 x 345 mm",
-        "id":"RP020",
+        "id":"RM020",
+        "price":550,
+        "frame":0,
+        "sold":false
+    },
+    {
+        "title":"লাভ চা!",
+        "img":"RM020.jpg",
+        "des":"Oil color on paper",
+        "dim":"230 x 320 mm",
+        "id":"RM020",
         "price":550,
         "frame":0,
         "sold":false
@@ -21,10 +31,10 @@
     },
     {
         "title":"Golden Hour",
-        "img":"RP010.jpg",
+        "img":"RM010.jpg",
         "des":"Pencil on A4 paper",
         "dim":"210 x 297 mm",
-        "id":"RP010",
+        "id":"RM010",
         "price":500,
         "frame":500,
         "sold":true
