@@ -1,9 +1,19 @@
 {"posts":[
     {
+        "title":"Field of Roses",
+        "img":"RP020.jpg",
+        "des":"Printed Art",
+        "dim":"390 x 390 mm",
+        "id":"RP010",
+        "price":300,
+        "frame":0,
+        "sold":false
+    },
+    {
         "title":"Red Bloom",
         "img":"RP010.jpg",
         "des":"Printed Art",
-        "dim":"297 x 297 mm",
+        "dim":"390 x 390 mm",
         "id":"RP010",
         "price":300,
         "frame":0,
