@@ -47,15 +47,19 @@ xhttp.onreadystatechange = function() {
                 Dimention: "+json[i].dim+"<br>\
                 Product ID: "+json[i].id+"<br>\
                 <b class=\"mt-5 text-success\">Price: BDT "+json[i].price;
-                if(json[i].frame > 0){
-                    body += "<br><small>(*Optional)</small> Frame: BDT +"+json[i].frame+"<br>";
+                if(json[i].frame == "-"){
+                    console.log("no frames");
+                }
+                else if(json[i].frame > 0){
+                    body += "<br><small>(*Optional)</small> Frame: BDT +"+json[i].frame+"<br><small> [N.B: The frame may not look alike as shown in this picture]</small></b><br><br>\
+                    <a href=\"http://m.me/338444737555231\" target=\"_blank\"><button type=\"button\" class=\"btn btn-outline-primary\">Send message to buy</button></a>\
+                    </div>";
                 }
                 else{
-                    body += "<br>(Including frame)<br>";
+                    body += "<br>(Including frame)<br><small> [N.B: The frame may not look alike as shown in this picture]</small></b><br><br>\
+                    <a href=\"http://m.me/338444737555231\" target=\"_blank\"><button type=\"button\" class=\"btn btn-outline-primary\">Send message to buy</button></a>\
+                    </div>";
                 }
-                body += "<small> [N.B: The frame may not look alike as shown in this picture]</small></b><br><br>\
-                <a href=\"http://m.me/338444737555231\" target=\"_blank\"><button type=\"button\" class=\"btn btn-outline-primary\">Send message to buy</button></a>\
-                </div>";
                 document.getElementById("feed").innerHTML += body;
             }
         }
