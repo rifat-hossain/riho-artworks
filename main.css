@@ -44,3 +44,7 @@ a{
     -webkit-transition: all 0.4s;
     transition: all 0.4s;
 }
+.carousel-inner > .carousel-item > img {
+    min-width: 100%;
+    width: 100%;
+  }
